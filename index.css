@@ -54,17 +54,14 @@
   max-width: 100%;
 }
 .govern-crm-text1 {
-  height: 142px;
+  height: auto;
   max-height: 142px;
   flex: 1;
   position: relative;
   max-width: 100%;
-  overflow: hidden;
-  object-fit: cover;
   min-width: 259px;
   z-index: 4;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  object-position: center;
 }
 .about1 {
   text-decoration: none;
@@ -132,13 +129,13 @@
   z-index: 2;
 }
 .slogan {
-  display: flex;
+  display: inline-block;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0px var(--padding-423xl) 0px var(--padding-416xl);
+  align-items: center;
+  justify-content: center;
   text-align: center;
   font-size: var(--font-size-21xl);
+  width: 100%;
 }
 .header1 {
   margin-top: -570px;
