@@ -208,30 +208,52 @@
               </div>
             </div>
           </div>
-          <div class="join-us-in-saving-democracy-parent">
+            <div class="join-us-in-saving-democracy-parent">
             <h3 class="join-us-in">Join Us In Saving Democracy</h3>
             <div class="form">
               <div class="form-container">
-                <div class="input-fields">
-                  <div class="name">Name</div>
-                  <input class="field-labels" type="text" />
+              <div class="input-fields">
+                <div class="name">Name</div>
+                <input class="field-labels" type="text" id="name" />
 
-                  <div class="email">Email</div>
-                  <div class="field-labels1"></div>
-                  <div class="subject">Subject</div>
-                  <input class="field-labels" type="text" />
+                <div class="email">Email</div>
+                <input class="field-labels" type="email" id="email" />
 
-                  <div class="name">Comment or Message</div>
-                  <textarea class="field-labels3" rows="{15}" cols="{48}">
-                  </textarea>
-                </div>
-                <button class="button">
-                  <div class="button-child"></div>
-                  <div class="submit">Submit</div>
-                </button>
+                <div class="subject">Subject</div>
+                <input class="field-labels" type="text" id="subject" />
+
+                <div class="name">Comment or Message</div>
+                <textarea class="field-labels3" rows="15" cols="48" id="message"></textarea>
+              </div>
+              <div class="captcha">
+                <label for="captcha">What is 3 + 4?</label>
+                <input type="text" id="captcha" />
+              </div>
+              <button class="button" onclick="submitForm()">
+                <div class="button-child"></div>
+                <div class="submit">Submit</div>
+              </button>
               </div>
             </div>
-          </div>
+            </div>
+
+            <script>
+            function submitForm() {
+              const name = document.getElementById('name').value;
+              const email = document.getElementById('email').value;
+              const subject = document.getElementById('subject').value;
+              const message = document.getElementById('message').value;
+              const captcha = document.getElementById('captcha').value;
+
+              if (captcha !== '7') {
+              alert('Captcha is incorrect.');
+              return;
+              }
+
+              const mailtoLink = `mailto:info@governcrm.us?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\nMessage:\n' + message)}`;
+              window.location.href = mailtoLink;
+            }
+            </script>
           <div class="footer2">
             <div class="footer-content">
               <div class="footer-info">

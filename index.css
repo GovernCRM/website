@@ -54,14 +54,13 @@
   max-width: 100%;
 }
 .govern-crm-text1 {
-  height: 142px;
-  flex: 1;
-  position: relative;
+
   max-width: 100%;
-  overflow: hidden;
-  object-fit: cover;
-  min-width: 259px;
-  z-index: 4;
+
+  height: auto;
+
+  display: block;
+
 }
 .about1 {
   text-decoration: none;
