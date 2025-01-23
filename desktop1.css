@@ -1,0 +1,682 @@
+.img-1-icon {
+  height: 496px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.header-bg {
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 100%;
+}
+.red-with-gold-highlights-5-col {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  width: 160.7px;
+  height: 182px;
+  object-fit: cover;
+  z-index: 4;
+}
+.red-gold-highlights-column {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0px;
+  left: 0px;
+}
+.image-column {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: 100%;
+}
+.nav {
+  height: 180.8px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  display: none;
+  max-width: 100%;
+}
+.govern-crm-text {
+  height: 142px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 259px;
+  z-index: 4;
+}
+.about {
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+  z-index: 1;
+}
+.services {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.contact {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.about-services-contact-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.about-services-contact-button-wrapper {
+  height: 80.4px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navbar {
+  align-self: stretch;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  padding: var(--padding-lgi) var(--padding-131xl) var(--padding-lgi-8)
+    var(--padding-501xl);
+  box-sizing: border-box;
+  gap: var(--gap-42xl);
+  max-width: 100%;
+  z-index: 3;
+}
+.add-residual-value {
+  margin: 0;
+}
+.constituent-relationship-manag-container {
+  margin: 0;
+  width: 569px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 1px 1px 0px #003049;
+  z-index: 2;
+}
+.constituent-relationship-manag-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-423xl) 0px var(--padding-416xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+}
+.header {
+  margin-top: -589px;
+  align-self: stretch;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-59xl) 0px var(--padding-52xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-39xl-2);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-goldenrod);
+  font-family: var(--font-cinzel);
+}
+.about-us {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.bg {
+  align-self: stretch;
+  width: 273px;
+  position: relative;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-darkslategray);
+  display: none;
+}
+.img4-icon {
+  height: 204.7px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-6xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-why-governcrm {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xs);
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-10xs) var(--padding-10xs-3) 0px;
+}
+.span {
+  color: var(--color-white);
+}
+.vision {
+  position: relative;
+  display: inline-block;
+  min-width: 63px;
+}
+.govern-crm-is {
+  width: 626px;
+  position: relative;
+  font-family: var(--font-league-spartan);
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.mission {
+  width: 105px;
+  position: relative;
+  line-height: 25px;
+  display: inline-block;
+}
+.we-continuously-customize {
+  position: relative;
+  font-family: var(--font-league-spartan);
+  white-space: pre-wrap;
+}
+.vision-mission-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.vision-mission-description {
+  width: 699px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-why-governcrm-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.methods {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+}
+.use-data-ai {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.use-data-ai-container {
+  height: 135px;
+  position: relative;
+  font-family: var(--font-league-spartan);
+  display: inline-block;
+}
+.methods-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px;
+}
+.methods-description {
+  width: 625px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bg1 {
+  align-self: stretch;
+  width: 270px;
+  position: relative;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-darkslategray);
+  display: none;
+}
+.img-3-icon {
+  height: 207px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-6xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-why-governcrm1 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xs);
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.methods-description-parent {
+  width: 1139px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.about-us-parent {
+  width: 1204px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl) var(--padding-24xl) 84px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-baskervville-sc);
+}
+.about-us-child {
+  width: 1447px;
+  height: 341px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.img-6-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.our-theory-of {
+  position: relative;
+  line-height: 25px;
+  z-index: 2;
+}
+.if-govern-crm-container {
+  width: 1084px;
+  position: relative;
+  line-height: 25px;
+  font-family: var(--font-league-spartan);
+  color: var(--color-white);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.about-us1 {
+  flex: 1;
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 79px var(--padding-xl) var(--padding-45xl) var(--padding-131xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 25px;
+  max-width: 100%;
+}
+.theory-of-action {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 99px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-goldenrod);
+  font-family: var(--font-baskervville-sc);
+}
+.facebook-icon {
+  height: 95px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.insta-icon {
+  height: 95px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-left: -29px;
+}
+.linkedin-icon {
+  height: 95px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-left: -29px;
+}
+.social-media-buttons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.social-links {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-32xl);
+}
+.copyright-2025 {
+  align-self: stretch;
+  position: relative;
+}
+.social-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.footer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-2xl) 0px var(--padding-xl);
+}
+.desktop-2 {
+  width: 100%;
+  height: 2008px;
+  position: relative;
+  background-color: var(--color-papayawhip);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 581px 0px var(--padding-51xl);
+  box-sizing: border-box;
+  gap: 93px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-league-spartan);
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding-left: 42px;
+    box-sizing: border-box;
+  }
+
+  .about-us1 {
+    padding-left: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+
+  .desktop-2 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .constituent-relationship-manag-container {
+    font-size: var(--font-size-13xl);
+  }
+
+  .about-us {
+    font-size: var(--font-size-5xl);
+  }
+
+  .img4-icon {
+    flex: 1;
+  }
+
+  .image-why-governcrm {
+    flex: 1;
+    padding-right: 0px;
+    box-sizing: border-box;
+  }
+
+  .vision-mission-description {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .image-why-governcrm-parent {
+    flex-wrap: wrap;
+  }
+
+  .methods-description {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .img-3-icon {
+    flex: 1;
+  }
+
+  .image-why-governcrm1 {
+    flex: 1;
+  }
+
+  .methods-description-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-241xl);
+    padding-right: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+
+  .constituent-relationship-manag-wrapper {
+    padding-left: var(--padding-198xl);
+    padding-right: var(--padding-202xl);
+    box-sizing: border-box;
+  }
+
+  .header {
+    gap: var(--gap-10xl);
+    padding-top: var(--padding-32xl);
+    padding-bottom: var(--padding-27xl);
+    box-sizing: border-box;
+  }
+
+  .frame-parent {
+    gap: var(--gap-11xl);
+  }
+
+  .about-us-parent {
+    gap: var(--gap-5xl);
+  }
+
+  .footer {
+    padding-left: var(--padding-2xl);
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+
+  .about-us1 {
+    padding-left: 37px;
+    box-sizing: border-box;
+  }
+
+  .desktop-2 {
+    gap: 46px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    gap: var(--gap-mini);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .constituent-relationship-manag-container {
+    font-size: var(--font-size-5xl);
+  }
+
+  .constituent-relationship-manag-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .about-us {
+    font-size: var(--font-size-lg);
+  }
+
+  .vision {
+    font-size: var(--font-size-base);
+  }
+
+  .govern-crm-is {
+    font-size: var(--font-size-base);
+  }
+
+  .mission {
+    font-size: var(--font-size-base);
+    line-height: 20px;
+  }
+
+  .we-continuously-customize {
+    font-size: var(--font-size-base);
+  }
+
+  .methods {
+    font-size: var(--font-size-base);
+  }
+
+  .use-data-ai-container {
+    font-size: var(--font-size-base);
+  }
+
+  .our-theory-of {
+    font-size: var(--font-size-base);
+    line-height: 20px;
+  }
+
+  .if-govern-crm-container {
+    font-size: var(--font-size-base);
+    line-height: 20px;
+  }
+
+  .theory-of-action {
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+
+  .social-links {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .copyright-2025 {
+    font-size: var(--font-size-base);
+  }
+
+  .desktop-2 {
+    gap: var(--gap-4xl);
+  }
+}
