@@ -55,6 +55,7 @@
 }
 .govern-crm-text1 {
   height: 142px;
+  max-height: 142px;
   flex: 1;
   position: relative;
   max-width: 100%;
