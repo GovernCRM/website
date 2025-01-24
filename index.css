@@ -67,12 +67,14 @@
   text-decoration: none;
   position: relative;
   font-weight: 700;
-  color: inherit;
+  color: var(--color-papayawhip);
   display: inline-block;
   min-width: 70px;
   z-index: 1;
 }
 .services1 {
+  text-decoration: none;
+  color: var(--color-papayawhip);
   flex: 1;
   position: relative;
   display: inline-block;
@@ -80,6 +82,8 @@
   z-index: 1;
 }
 .contact1 {
+  text-decoration: none;
+  color: var(--color-papayawhip);
   flex: 1;
   position: relative;
   z-index: 1;
