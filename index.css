@@ -1017,6 +1017,7 @@
 
   .copyright-20251 {
     font-size: var(--font-size-base);
+    padding-bottom: var(--padding-xl);
   }
 
   .desktop-1 {
