@@ -476,6 +476,7 @@
 .govern-crm-subscribers {
   margin: 0;
   line-height: 35px;
+  font-weight: bold;
 }
 .blank-line3 {
   line-height: 25px;
@@ -503,9 +504,9 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 175px 105px 215px;
+  padding: 255px 105px 215px;
   box-sizing: border-box;
-  background-image: url("./public/img-2@2x.png");
+  background-image: url("./public/map.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
