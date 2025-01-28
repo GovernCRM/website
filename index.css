@@ -164,9 +164,6 @@
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
-  top: 50%; /* Position it in the middle vertically */
-  left: 50%; /* Position it in the middle horizontally */
-  transform: translate(-50%, -50%);
 }
 .bg2 {
   align-self: stretch;
