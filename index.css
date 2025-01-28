@@ -82,7 +82,7 @@
   z-index: 1;
 }
 .contact1 {
-  text-decoration: none;
+  text-decoration: none !important;
   color: var(--color-papayawhip);
   flex: 1;
   position: relative;
@@ -90,6 +90,7 @@
   z-index: 1;
 }
 .links-container {
+  text-decoration: none;
   align-self: stretch;
   display: flex;
   flex-direction: row;
