@@ -160,10 +160,12 @@
 }
 .why-govern-crm {
   margin: 0;
-  position: relative;
+  position: absolute;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
+  top: 50%; /* Position it in the middle vertically */
+  left: 50%; /* Position it in the middle horizontally */
 }
 .bg2 {
   align-self: stretch;
