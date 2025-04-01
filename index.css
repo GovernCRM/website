@@ -1,3 +1,23 @@
+@media screen and (max-width: 768px) {
+  .desktop-1 {
+    padding: 20px;
+  }
+  .navbar1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-content {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+}
+
 .img-1-icon1 {
   height: 496px;
   flex: 1;
@@ -17,12 +37,24 @@
 }
 .red-with-gold-highlights-5-col1 {
   position: absolute;
-  top: 70px;
-  left: 150px;
+  top: 65px;
+  left: 100px; /* Align to the left side of the screen */
+  transform: none; /* Remove centering transform */
   width: 160.7px;
   height: 182px;
   object-fit: cover;
   z-index: 4;
+}
+
+@media screen and (max-width: 768px) {
+  .red-with-gold-highlights-5-col1 {
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    transform: none;
+    display: none;
+  }
 }
 .header-bg-parent {
   height: 100%;
@@ -124,7 +156,7 @@
   z-index: 3;
 }
 .constituent-relationship-manag-container1 {
-  margin: 0;
+  margin: 0 auto; /* Center horizontally */
   width: 569px;
   position: relative;
   font-size: inherit;
@@ -133,6 +165,13 @@
   display: inline-block;
   text-shadow: 1px 1px 0px #003049;
   z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .constituent-relationship-manag-container1 {
+    text-align: center; /* Center text for mobile views */
+    width: 100%; /* Adjust width for responsiveness */
+  }
 }
 .slogan {
   display: inline-block;
@@ -500,6 +539,14 @@
   max-height: 229px;
   word-break: break-word;
   z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .govern-crm-subscribers-container {
+    width: 100%; /* Adjust width for mobile views */
+    max-height: none; /* Remove height restriction */
+    text-align: center; /* Center content */
+  }
 }
 .map-with-text {
   display: flex;
